@@ -1,0 +1,5 @@
+nohup: 忽略输入
+/home/wuyl/.local/lib/python3.8/site-packages/torch/cuda/__init__.py:141: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11080). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+  0%|          | 0/7 [00:00<?, ?it/s] 14%|█▍        | 1/7 [00:01<00:09,  1.65s/it] 29%|██▊       | 2/7 [00:02<00:04,  1.11it/s] 43%|████▎     | 3/7 [00:02<00:03,  1.28it/s] 71%|███████▏  | 5/7 [00:03<00:00,  2.24it/s] 86%|████████▌ | 6/7 [00:03<00:00,  2.58it/s]100%|██████████| 7/7 [00:03<00:00,  2.94it/s]100%|██████████| 7/7 [00:03<00:00,  1.99it/s]
+█████████| 7/7 [00:03<00:00,  1.91it/s]
